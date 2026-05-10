@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    background: #f3f7e8;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background:
+      radial-gradient(circle at 12% 20%, rgba(189, 212, 118, 0.32), transparent 26rem),
+      radial-gradient(circle at 88% 0%, rgba(217, 232, 170, 0.5), transparent 24rem),
+      #f3f7e8;
+  }
+
+  button {
+    font: inherit;
+  }
+}
