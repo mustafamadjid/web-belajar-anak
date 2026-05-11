@@ -17,7 +17,8 @@ Peristiwa pada gambar menunjukkan adanya ….`,
       "pembiasan cahaya",
     ],
     correctAnswer: "D",
-    explanation: "Pembiasan terjadi ketika arah cahaya berubah karena melewati dua medium yang berbeda.",
+    explanation:
+      "Pembiasan terjadi ketika arah cahaya berubah karena melewati dua medium yang berbeda.",
     image: image1,
   },
   {
@@ -30,11 +31,13 @@ Berdasarkan gambar, pembiasan terjadi bila cahaya datang dari ...`,
       "air menuju air",
     ],
     correctAnswer: "A",
-    explanation: "Cahaya dibiaskan saat berpindah dari satu medium ke medium lain, misalnya dari udara ke air.",
+    explanation:
+      "Cahaya dibiaskan saat berpindah dari satu medium ke medium lain, misalnya dari udara ke air.",
     image: image2,
   },
   {
-    question: "Gelas bening dapat ditembus oleh cahaya, hal ini menunjukkan bahwa cahaya memiliki sifat ....",
+    question:
+      "Gelas bening dapat ditembus oleh cahaya, hal ini menunjukkan bahwa cahaya memiliki sifat ....",
     options: [
       "merambat lurus",
       "dapat dibiaskan",
@@ -42,7 +45,8 @@ Berdasarkan gambar, pembiasan terjadi bila cahaya datang dari ...`,
       "menembus benda bening",
     ],
     correctAnswer: "D",
-    explanation: "Benda bening seperti gelas meneruskan cahaya sehingga benda di baliknya masih terlihat.",
+    explanation:
+      "Benda bening seperti gelas meneruskan cahaya sehingga benda di baliknya masih terlihat.",
   },
   {
     question: `Perhatikan gambar berikut!
@@ -54,7 +58,8 @@ Gambar di atas menunjukkan bahwa cahaya mempunyai sifat ….`,
       "dapat dipantulkan",
     ],
     correctAnswer: "C",
-    explanation: "Cahaya bergerak lurus selama tidak terhalang atau berpindah medium.",
+    explanation:
+      "Cahaya bergerak lurus selama tidak terhalang atau berpindah medium.",
     image: image3,
   },
   {
@@ -67,17 +72,14 @@ Peristiwa terbentuknya pelangi menunjukkan sifat cahaya yaitu dapat diuraikan me
       "cahaya matahari yang merambat di udara",
     ],
     correctAnswer: "A",
-    explanation: "Tetes air hujan membiaskan dan menguraikan cahaya matahari menjadi warna pelangi.",
+    explanation:
+      "Tetes air hujan membiaskan dan menguraikan cahaya matahari menjadi warna pelangi.",
     image: image4,
   },
   {
-    question: "Jika mata memperoleh cahaya redup (kurang cahaya), maka pupil mata akan ....",
-    options: [
-      "mengecil",
-      "diam",
-      "menutup",
-      "membesar",
-    ],
+    question:
+      "Jika mata memperoleh cahaya redup (kurang cahaya), maka pupil mata akan ....",
+    options: ["mengecil", "diam", "menutup", "membesar"],
     correctAnswer: "D",
     explanation: "Pupil membesar agar lebih banyak cahaya masuk ke mata.",
   },
@@ -87,23 +89,15 @@ Peristiwa terbentuknya pelangi menunjukkan sifat cahaya yaitu dapat diuraikan me
 (2) dikelilingi oleh iris, yang merupakan bagian berwarna pada mata yang terletak di belakang kornea
 (3) disebut juga dengan istilah selaput pelangi
 Bagian mata yang dideskripsikan di atas adalah ….`,
-    options: [
-      "lensa mata",
-      "pupil",
-      "retina",
-      "kornea",
-    ],
+    options: ["lensa mata", "pupil", "retina", "kornea"],
     correctAnswer: "B",
-    explanation: "Pupil adalah lubang hitam di tengah iris sebagai jalan masuk cahaya.",
+    explanation:
+      "Pupil adalah lubang hitam di tengah iris sebagai jalan masuk cahaya.",
   },
   {
-    question: "Orang yang tidak dapat melihat benda dengan jelas apabila jaraknya jauh disebut ...",
-    options: [
-      "rabun jauh",
-      "hipermetropi",
-      "presbiopi",
-      "rabun dekat",
-    ],
+    question:
+      "Orang yang tidak dapat melihat benda dengan jelas apabila jaraknya jauh disebut ...",
+    options: ["rabun jauh", "hipermetropi", "presbiopi", "rabun dekat"],
     correctAnswer: "A",
     explanation: "Rabun jauh atau miopi membuat benda jauh tampak kabur.",
   },
@@ -123,22 +117,19 @@ Sifat bayangan yang terbentuk pada cermin cembung adalah ...`,
       "(2), (3), (6)",
     ],
     correctAnswer: "B",
-    explanation: "Cermin cembung menghasilkan bayangan maya, tegak, dan diperkecil.",
+    explanation:
+      "Cermin cembung menghasilkan bayangan maya, tegak, dan diperkecil.",
   },
   {
     question: "Berikut yang merupakan contoh sumber cahaya adalah ...",
-    options: [
-      "dinamo",
-      "matahari",
-      "generator",
-      "batu baterai",
-    ],
+    options: ["dinamo", "matahari", "generator", "batu baterai"],
     correctAnswer: "B",
-    explanation: "Matahari memancarkan cahaya sendiri sehingga termasuk sumber cahaya.",
+    explanation:
+      "Matahari memancarkan cahaya sendiri sehingga termasuk sumber cahaya.",
   },
   {
     question: `Perhatikan gambar berikut ini!
-Gambar tersebut menunjukkan ....`,
+Gambar tersebut menunjukkan peristiwa ....`,
     options: [
       "pemantulan baur",
       "pemantulan teratur",
@@ -146,19 +137,17 @@ Gambar tersebut menunjukkan ....`,
       "penyerapan cahaya",
     ],
     correctAnswer: "B",
-    explanation: "Pemantulan teratur terjadi ketika cahaya dipantulkan secara terarah oleh permukaan yang rata.",
+    explanation:
+      "Pemantulan teratur terjadi ketika cahaya dipantulkan secara terarah oleh permukaan yang rata.",
     image: image5,
   },
   {
-    question: "Jarak bayangan benda dengan jarak benda yang berada di depan cermin datar adalah ....",
-    options: [
-      "sama",
-      "lebih jauh",
-      "lebih dekat",
-      "berbeda",
-    ],
+    question:
+      "Jarak bayangan benda dengan jarak benda yang berada di depan cermin datar adalah ....",
+    options: ["sama", "lebih jauh", "lebih dekat", "berbeda"],
     correctAnswer: "A",
-    explanation: "Pada cermin datar, jarak benda ke cermin sama dengan jarak bayangan ke cermin.",
+    explanation:
+      "Pada cermin datar, jarak benda ke cermin sama dengan jarak bayangan ke cermin.",
   },
   {
     question: "Sifat bayangan yang dibentuk oleh cermin datar adalah ....",
@@ -169,32 +158,26 @@ Gambar tersebut menunjukkan ....`,
       "nyata dan terbalik",
     ],
     correctAnswer: "A",
-    explanation: "Bayangan cermin datar bersifat maya atau semu, tegak, dan sama besar.",
+    explanation:
+      "Bayangan cermin datar bersifat maya atau semu, tegak, dan sama besar.",
   },
   {
-    question: "Cermin yang digunakan pada kaca spion mobil atau motor adalah ....",
-    options: [
-      "cermin rias",
-      "cermin datar",
-      "cermin cekung",
-      "cermin cembung",
-    ],
+    question:
+      "Cermin yang digunakan pada kaca spion mobil atau motor adalah ....",
+    options: ["cermin rias", "cermin datar", "cermin cekung", "cermin cembung"],
     correctAnswer: "D",
-    explanation: "Cermin cembung memperluas bidang pandang sehingga cocok untuk spion.",
+    explanation:
+      "Cermin cembung memperluas bidang pandang sehingga cocok untuk spion.",
   },
   {
     question: "Warna-warna yang membentuk cahaya putih disebut ....",
-    options: [
-      "warna gelap",
-      "pelangi",
-      "warna terang",
-      "spektrum cahaya",
-    ],
+    options: ["warna gelap", "pelangi", "warna terang", "spektrum cahaya"],
     correctAnswer: "D",
     explanation: "Spektrum cahaya adalah susunan warna penyusun cahaya putih.",
   },
   {
-    question: "Peristiwa yang membuktikan bahwa cahaya merambat lurus yaitu ....",
+    question:
+      "Peristiwa yang membuktikan bahwa cahaya merambat lurus yaitu ....",
     options: [
       "rambatan cahaya matahari yang lurus ketika melewati genting kaca",
       "terbentuknya pelangi pada saat hujan",
@@ -202,7 +185,8 @@ Gambar tersebut menunjukkan ....`,
       "cahaya menembus benda bening",
     ],
     correctAnswer: "A",
-    explanation: "Berkas cahaya matahari yang tampak lurus menunjukkan sifat cahaya merambat lurus.",
+    explanation:
+      "Berkas cahaya matahari yang tampak lurus menunjukkan sifat cahaya merambat lurus.",
   },
   {
     question: "Bayangan benda yang dapat ditangkap oleh layar disebut ....",
@@ -213,23 +197,21 @@ Gambar tersebut menunjukkan ....`,
       "bayangan teratur",
     ],
     correctAnswer: "C",
-    explanation: "Bayangan nyata terbentuk dari pertemuan sinar dan dapat ditangkap layar.",
+    explanation:
+      "Bayangan nyata terbentuk dari pertemuan sinar dan dapat ditangkap layar.",
   },
   {
     question: `Perhatikan gambar berikut!
 Gambar di atas merupakan sinar pada penderita ….`,
-    options: [
-      "miopi",
-      "hipermetropi",
-      "presbiopi",
-      "astigmatisme",
-    ],
+    options: ["miopi", "hipermetropi", "presbiopi", "astigmatisme"],
     correctAnswer: "A",
-    explanation: "Miopi terjadi ketika bayangan benda jauh jatuh di depan retina.",
+    explanation:
+      "Miopi terjadi ketika bayangan benda jauh jatuh di depan retina.",
     image: image6,
   },
   {
-    question: "Ayah Toni menderita rabun dekat Sebaliknya, Toni menderita rabun jauh, untuk mengatasi gangguan tersebut, ayah Toni menggunakan kacamata berlensa positif dan Toni menggunakan kacamata berlensa negatif. Kacamata dapat membantu mengatasi gangguan mata dengan cara ….",
+    question:
+      "Ayah Toni menderita rabun dekat Sebaliknya, Toni menderita rabun jauh, untuk mengatasi gangguan tersebut, ayah Toni menggunakan kacamata berlensa positif dan Toni menggunakan kacamata berlensa negatif. Kacamata dapat membantu mengatasi gangguan mata dengan cara ….",
     options: [
       "Meneruskan  cahaya dan melindungi mata",
       "membelokkan bayangan ke saraf penglihat",
@@ -237,10 +219,12 @@ Gambar di atas merupakan sinar pada penderita ….`,
       "membantu bayangan agar jatuh tepat pada retina",
     ],
     correctAnswer: "D",
-    explanation: "Lensa kacamata membantu memfokuskan bayangan agar tepat jatuh pada retina.",
+    explanation:
+      "Lensa kacamata membantu memfokuskan bayangan agar tepat jatuh pada retina.",
   },
   {
-    question: "Telinga adalah alat indra manusia yang merupakan anugerah Tuhan cara merawat telinga yang salah adalah ....",
+    question:
+      "Telinga adalah alat indra manusia yang merupakan anugerah Tuhan cara merawat telinga yang salah adalah ....",
     options: [
       "membersihkan telinga bagian luar secara rutin",
       "tidak memasukan benda tajam ke dalam telinga",
@@ -248,7 +232,8 @@ Gambar di atas merupakan sinar pada penderita ….`,
       "membersihkan telinga bagian dalam dengan kapas atau cotton bud",
     ],
     correctAnswer: "D",
-    explanation: "Cotton bud dapat mendorong kotoran lebih dalam dan berisiko melukai telinga.",
+    explanation:
+      "Cotton bud dapat mendorong kotoran lebih dalam dan berisiko melukai telinga.",
   },
   {
     question: "Organ korti yang merupakan alat pendengaran terdapat dalam ....",
@@ -259,7 +244,8 @@ Gambar di atas merupakan sinar pada penderita ….`,
       "ampula",
     ],
     correctAnswer: "C",
-    explanation: "Organ korti berada di koklea dan berfungsi menerima rangsang bunyi.",
+    explanation:
+      "Organ korti berada di koklea dan berfungsi menerima rangsang bunyi.",
   },
   {
     question: "Berikut ini yang tidak benar tentang bunyi yaitu ....",
@@ -270,10 +256,12 @@ Gambar di atas merupakan sinar pada penderita ….`,
       "benda yang menghasilkan bunyi disebut sumber bunyi",
     ],
     correctAnswer: "B",
-    explanation: "Bunyi memerlukan medium, sehingga tidak dapat merambat di ruang hampa.",
+    explanation:
+      "Bunyi memerlukan medium, sehingga tidak dapat merambat di ruang hampa.",
   },
   {
-    question: "Membran timpani yang menangkap getaran suara terdapat di bagian ....",
+    question:
+      "Membran timpani yang menangkap getaran suara terdapat di bagian ....",
     options: [
       "telinga luar",
       "telinga tengah",
@@ -281,7 +269,8 @@ Gambar di atas merupakan sinar pada penderita ….`,
       "saluran eustachius",
     ],
     correctAnswer: "B",
-    explanation: "Membran timpani atau gendang telinga berada di batas telinga luar dan tengah.",
+    explanation:
+      "Membran timpani atau gendang telinga berada di batas telinga luar dan tengah.",
   },
   {
     question: "Bukti bunyi dapat dipantulkan adalah ....",
@@ -292,16 +281,12 @@ Gambar di atas merupakan sinar pada penderita ….`,
       "suara akan terdengar lebih keras ketika bernyanyi di dalam kamar mandi tertutup",
     ],
     correctAnswer: "D",
-    explanation: "Suara di kamar mandi tertutup terdengar lebih keras karena bunyi dipantulkan dinding.",
+    explanation:
+      "Suara di kamar mandi tertutup terdengar lebih keras karena bunyi dipantulkan dinding.",
   },
   {
     question: "Kita tidak dapat mendengar bunyi jika berada di ....",
-    options: [
-      "kolam renang",
-      "ruang hampa",
-      "kamar tidur",
-      "dapur",
-    ],
+    options: ["kolam renang", "ruang hampa", "kamar tidur", "dapur"],
     correctAnswer: "B",
     explanation: "Ruang hampa tidak memiliki medium untuk merambatkan bunyi.",
   },
