@@ -224,7 +224,7 @@ Gambar di atas merupakan sinar pada penderita ….`,
   },
   {
     question:
-      "Telinga adalah alat indra manusia yang merupakan anugerah Tuhan cara merawat telinga yang salah adalah ....",
+      "Telinga adalah alat indra manusia yang merupakan anugerah Tuhan. Cara merawat telinga yang salah adalah ....",
     options: [
       "membersihkan telinga bagian luar secara rutin",
       "tidak memasukan benda tajam ke dalam telinga",
