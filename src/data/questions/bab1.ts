@@ -248,7 +248,8 @@ Gambar di atas merupakan sinar pada penderita ….`,
       "Organ korti berada di koklea dan berfungsi menerima rangsang bunyi.",
   },
   {
-    question: "Berikut ini yang tidak benar tentang bunyi yaitu ....",
+    question:
+      "Berikut ini pernyataan yang tidak benar tentang bunyi yaitu ....",
     options: [
       "bunyi dapat merambat melalui benda padat cair dan gas",
       "bunyi merambat melalui ruang hampa",
