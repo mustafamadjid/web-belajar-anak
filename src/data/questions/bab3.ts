@@ -4,7 +4,7 @@ import image1 from "../../assets/question-images/bab_3/image1.png";
 export const bab3Questions = createQuestions("bab-3", [
   {
     question:
-      "Zidan menjatuhkan peniti di dekat magnet dan peniti menempel pada magnet. Peristiwa ini terjadi akibat adanya ....",
+      "Zidan meletakkan magnet batangan di atas meja, dia lalu menjatuhkan peniti di dekat magnet, peniti tersebut tampak menempel pada magnet. Peristiwa ini terjadi akibat dari adanya ....",
     options: [
       "usaha magnet",
       "gaya magnet",
@@ -29,7 +29,7 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Serbuk besi berkumpul sejajar dengan magnet di bawah kertas. Hal ini menunjukkan sifat magnet yaitu ....",
+      "Salsa menyebarkan serbuk besi ke selembar kertas. Kemudian, Salsa menggerakkan gerakkan magnet di bawah kertas tersebut. Setelah beberapa saat, seluruh serbuk kertas berkumpul tepat sejajar dengan magnet yang berada di bawah kertas. Hal demikian menunjukkan sifat magnet yaitu ....",
     options: [
       "magnet dapat menarik benda lainnya",
       "kutub magnet sejenis akan tolak-menolak",
@@ -40,8 +40,12 @@ export const bab3Questions = createQuestions("bab-3", [
     explanation: "Gaya magnet tetap bekerja meski terhalang kertas.",
   },
   {
-    question:
-      "Kegiatan yang dapat menyebabkan sifat kemagnetan benda magnet hilang ditunjukkan oleh nomor ....",
+    question: `Perhatikan pernyataan berikut!
+(1) Dijatuhkan dari ketinggian
+(2) Dipukul-pukul
+(3) Digosok-gosokkan pada magnet.
+(4) Dibakar pada api selama beberapa jam.
+Kegiatan yang dapat menyebabkan sifat kemagnetan benda magnet hilang ditunjukkan oleh nomor ....`,
     options: ["(1) dan (2)", "(1) dan (3)", "(2) dan (3)", "(2) dan (4)"],
     correctAnswer: "D",
     explanation:
@@ -49,16 +53,16 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Batang besi dibuat menjadi magnet seperti gambar. Kutub-kutub magnet yang terjadi pada batang besi adalah ....",
+      "Batang besi akan dibuat menjadi magnet dengan cara seperti gambar, kutub-kutub magnet yang terjadi pada batang besi adalah ....",
     options: [
-      "A = kutub selatan dan B = kutub selatan",
+      "A = kutub utara dan B = kutub selatan",
       "A = kutub selatan dan B = kutub utara",
       "A = kutub utara dan B = kutub utara",
-      "A = kutub utara dan B = kutub selatan",
+      "A = kutub selatan dan B = kutub selatan",
     ],
-    correctAnswer: "D",
+    correctAnswer: "A",
     explanation:
-      "Berdasarkan kunci, ujung A menjadi kutub utara dan ujung B menjadi kutub selatan.",
+      "Ujung A menjadi kutub utara dan ujung B menjadi kutub selatan.",
     image: image1,
   },
   {
@@ -69,7 +73,8 @@ export const bab3Questions = createQuestions("bab-3", [
       "Bahan feromagnetik seperti besi dan baja ditarik magnet dengan kuat.",
   },
   {
-    question: "Kelompok alat yang memanfaatkan sifat-sifat magnet yaitu ....",
+    question:
+      "Berikut kelompok alat yang memanfaatkan sifat-sifat magnet yaitu ....",
     options: [
       "kompas, ujung obeng, dan penutup kotak pensil",
       "kursi, penutup pintu kulas, dan kipas angin",
@@ -97,7 +102,7 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Jika baterai pada senter dipasang terbalik, maka senter tersebut akan ....",
+      "Adit memasang baterai pada senter sehingga senter dapat menyala, tiba-tiba Adit melepas baterai lalu memasangnya secara terbalik pada senter, maka senter terebut akan ....",
     options: [
       "menyala seperti semula",
       "menyala lebih terang",
@@ -117,7 +122,8 @@ export const bab3Questions = createQuestions("bab-3", [
       "Panel surya mengubah energi cahaya matahari menjadi energi listrik.",
   },
   {
-    question: "Energi listrik dari PLTA berasal dari ....",
+    question:
+      "Masyarakat menggunakan energi listrik untuk kehidupan sehari-hari melalui kabel-kabel yang dihubungkan dengan PLTA. Hal ini menunjukkan bahwa masyarakat menggunakan energi listrik yang berasal dari ....",
     options: ["aliran air", "hembusan angin", "nuklir", "panas matahari"],
     correctAnswer: "A",
     explanation: "PLTA memanfaatkan aliran air untuk memutar turbin.",
@@ -140,12 +146,12 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Pernyataan yang tepat mengenai uap yang digunakan pada PLTU adalah ....",
+      "Pembangkit Listrik Tenaga Uap (PLTU) memanfaatkan uap untuk diubah menjadi energi listrik. Pernyataan yang tepat mengenai uap yang di-gunakan pada PLTU Adalah ....",
     options: [
-      "Uap berasal dari angin yang mengalir di udara.",
-      "Uap berasal dari gas alam yang tersedia di bumi.",
-      "Uap berasal dari batu bara yang dibakar di tangki pembakaran.",
-      "Uap berasal dari minyak bumi yang dibakar di turbin.",
+      "Uap yang digunakan berasal dari angin yang mengalir di udara.",
+      "Uap yang digunakan berasal dari gas alam yang tersedia di bumi.",
+      "Uap yang digunakan berasal dari batu bara yang dibakar ditangki pembakaran.",
+      "Uap yang digunakan berasal dari minyak bumi yang dibakar di turbin.",
     ],
     correctAnswer: "C",
     explanation:
@@ -153,7 +159,7 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Syarat sungai dapat dikembangkan menjadi pembangkit listrik tenaga air adalah ....",
+      "Sungai banyak terdapat di Indonesia dan berpotensi menjadi energi terbarukan, satu di antara syarat kondisi agar sungai dapat dikembangkan menjadi pembangkit listrik tenaga air adalah ....",
     options: [
       "terdapat banyak endapan.",
       "terdapat banyak ikan.",
@@ -165,13 +171,15 @@ export const bab3Questions = createQuestions("bab-3", [
       "Arus deras dan debit stabil dibutuhkan untuk memutar turbin PLTA.",
   },
   {
-    question: "Teknologi pada gambar digunakan sebagai alat ....",
+    question:
+      "Teknologi sering kita gunakan hampir setiap hari. Teknologi pada gambar di atas digunakan sebagai alat ....",
     options: ["Penerangan", "Komunikasi", "Transportasi", "penglihatan"],
     correctAnswer: "B",
     explanation: "Teknologi komunikasi membantu manusia bertukar informasi.",
   },
   {
-    question: "Teknologi yang digunakan manusia pertama kali berupa ....",
+    question:
+      "Perkembangan penggunaan teknologi begitu panjang, teknologi yang digunakan manusia pertama kali berupa ....",
     options: [
       "mesin uap",
       "mesin telegraf",
@@ -190,9 +198,9 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Teknologi masa kini yang dapat membantu pekerjaan Pak Dedin sebagai petani yaitu ....",
+      "Pak Dedin merupakan seorang petani di desa, teknologi masa kini yang dapat membantu pekerjaan Pak Dedin yaitu ....",
     options: [
-      "menggunakan sapi untuk membajak sawah",
+      "menggunakan sapi untuk mem-bajak sawah",
       "memanen padi dengan ani-ani",
       "menggemburkan tanah dengan tractor",
       "menggunakan pukat harimau",
@@ -202,14 +210,14 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Teknologi yang rumit untuk mendapatkan informasi secara cepat adalah ....",
+      "Santi menggunakan salah satu teknologi yang rumit untuk mendapatkan informasi secara cepat, teknologi yang dimaksud yaitu ....",
     options: ["internet", "koran", "mesin telegraf", "rice cooker"],
     correctAnswer: "A",
     explanation: "Internet memungkinkan akses informasi secara cepat dan luas.",
   },
   {
     question:
-      "Prinsip kerja mesin uap memengaruhi transportasi air karena ....",
+      "Penemuan mesin uap oleh James Watt memengaruhi perkembangan teknologi transportasi air. Hal itu disebabkan karena prinsip kerja mesin uap ....",
     options: [
       "mempercepat gerakan mesin-mesin industry",
       "mengurangi biaya produksi untuk industri rumah tangga",
@@ -222,7 +230,7 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Alat komunikasi dengan sinyal tanpa kabel yang mampu menjangkau 19,3 km pertama ditemukan tahun 1897 oleh ....",
+      "Alat komunikasi dengan menggunakan sinyal tanpa kabel yang mempu menjangkau jarak 19,3 km pertama ditemukan tahun 1897 oleh....",
     options: [
       "Guglielmo Maraconi",
       "Thomas Edison",
@@ -235,7 +243,7 @@ export const bab3Questions = createQuestions("bab-3", [
   },
   {
     question:
-      "Salah satu contoh penggunaan teknologi di bidang industri manufaktur yaitu ....",
+      "Salah satu contoh penggunaan teknologi di bidang industri manufaktur yaitu....",
     options: [
       "mempergunakan pestisida agar hama hilang",
       "mempergunakan mesin untuk membuat tas",
@@ -247,7 +255,7 @@ export const bab3Questions = createQuestions("bab-3", [
       "Industri manufaktur menggunakan mesin untuk membuat barang produksi.",
   },
   {
-    question: "Penemuan radio berguna sebagai sarana ....",
+    question: "Penemuan radio berguna sebagai sarana....",
     options: [
       "memudahkan orang bertransaksi",
       "mempermudah siswa dalam mencari bahan belajar",

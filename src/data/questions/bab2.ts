@@ -4,7 +4,7 @@ import image1 from "../../assets/question-images/bab_2/image1.png";
 export const bab2Questions = createQuestions("bab-2", [
   {
     question:
-      "Hubungan antara makhluk hidup dan lingkungan tempat tinggalnya akan membentuk ....",
+      "Makhluk hidup tidak hanya membentuk hubungan antar makhluk hidup, makhluk hidup juga membentuk hubungan dengan lingkungan tempat tinggalnya, hubungan antara makhluk hidup dan lingkungannya ini akan membentuk ....",
     options: ["komunitas", "ekosistem", "populasi", "habitat"],
     correctAnswer: "B",
     explanation:
@@ -24,16 +24,17 @@ export const bab2Questions = createQuestions("bab-2", [
       "Rantai makanan menunjukkan urutan perpindahan energi melalui makan dan dimakan.",
   },
   {
-    question:
-      "Pada rantai makanan tumbuhan - cacing - ayam - elang - jamur saprofit, organisme yang menduduki bagian yang tidak lengkap disebut ....",
+    question: `Perhatikan rantai makanan berikut!
+Tumbuhan – cacing – ayam – elang – jamur saprofit
+Organisme yang menduduki bagian pada rantai makanan yang tidak lengkap disebut ....`,
     options: ["ular", "musang", "burung hantu", "cacing"],
     correctAnswer: "D",
     explanation:
       "Cacing berada pada urutan setelah tumbuhan dalam rantai makanan tersebut.",
   },
   {
-    question:
-      "Pernyataan yang sesuai dengan rantai makanan pada gambar adalah ....",
+    question: `Perhatikan rantai makanan berikut!
+Pernyataan yang sesuai dengan rantai makanan di atas adalah ....`,
     options: [
       "Belalang berperan sebagai trofik III",
       "Katak berperan sebagai dekomposer",
@@ -48,10 +49,10 @@ export const bab2Questions = createQuestions("bab-2", [
   {
     question: "Rantai makanan yang terjadi pada ekosistem kolam adalah ....",
     options: [
-      "energi matahari - fitoplankton - udang lembut - fitoplankton - ikan lele - elang - decomposer",
-      "teratai - ulat - kelinci",
-      "enceng gondok - ikan - hiu",
-      "ikan teri - ikan bawal - hiu",
+      "energi matahari – fitoplankton – udang lembut – fitoplankton – ikan lele – elang – decomposer",
+      "teratai – ulat – kelinci",
+      "enceng gondok – ikan – hiu",
+      "ikan teri – ikan bawal – hiu",
     ],
     correctAnswer: "A",
     explanation:
@@ -99,7 +100,7 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question:
-      "Jika predator sangat aktif dan konsumen primer menurun, maka akan terjadi ....",
+      "Di suatu daerah hidup sekelompok harimau dan kambing apabila predatornya sangat aktif, setelah terjadi penurunan konsumen primer maka akan terjadi ....",
     options: [
       "peningkatan populasi rumput dan penurunan populasi harimau",
       "penurunan populasi harimau dan rumput",
@@ -112,7 +113,7 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question:
-      "Puncak piramida rantai makanan biasanya hewan karnivora. Contohnya yaitu ....",
+      "Puncak piramida rantai makanan biasanya hewan karnivora,, contoh hewan-hewan tersebut yaitu ....",
     options: [
       "tikus, harimau dan gajah",
       "jerapah, rusa dan kerbau",
@@ -125,7 +126,7 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question:
-      "Dalam ekosistem danau terjadi perpindahan energi. Energi yang tersimpan paling tinggi terdapat di ....",
+      "Dalam suatu ekosistem danau terjadi perpindahan energi, energi yang tersimpan paling tinggi terdapat di ....",
     options: ["ikan", "fitoplankton", "burung bangau", "udang"],
     correctAnswer: "B",
     explanation:
@@ -133,27 +134,33 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question:
-      "Kayu lapuk dimakan jamur, jamur dimakan ayam, dan ayam dimakan rubah adalah contoh rantai makanan ....",
+      "Kayu lapuk yang dimakan jamur, jamur yang dimakan ayam, dan ayam yang dimakan oleh rubah adalah contoh rantai makanan ....",
     options: ["perumput", "parasite", "detritus", "saprofit"],
     correctAnswer: "C",
     explanation:
       "Rantai detritus dimulai dari sisa organisme atau bahan organik mati.",
   },
   {
-    question: "Prinsip peredaran energi pada jaring-jaring makanan adalah ....",
+    question:
+      "Pada jaring-jaring makanan, terjadi peredaran materi dan energi, prinsip peredaran energi pada proses tersebut adalah ....",
     options: [
-      "berbentuk aliran dari matahari dan berakhir pada pengurai",
       "berbentuk daur dari matahari dan akan kembali lagi ke matahari",
+      "berbentuk aliran dari matahari dan berakhir pada pengurai",
       "berbentuk aliran dari produsen dan akan berakhir di matahari",
       "berbentuk daur dari produsen dan akan kembali ke produsen",
     ],
-    correctAnswer: "A",
+    correctAnswer: "B",
     explanation:
       "Energi mengalir satu arah dari matahari ke produsen, konsumen, lalu pengurai.",
   },
   {
-    question:
-      "Di kolam terdapat ikan kecil, fitoplankton, zooplankton, ikan besar, dan pengurai. Aliran energi yang tepat adalah ....",
+    question: `Di sebuah kolam terdapat populasi sebagai berikut:
+(1) ikan kecil
+(2) fitoplangton
+(3) zooplangton
+(4) ikan besar
+(5) pengurai
+Aliran energi yang terjadi pada ekosistem kolam tersebut adalah ....`,
     options: ["1-3-2-4-5", "2-3-1-4-5", "1-2-4-3-5", "2-1-3-4-5"],
     correctAnswer: "B",
     explanation:
@@ -161,14 +168,14 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question:
-      "Energi yang ada di dalam ekosistem berasal dari matahari. Proses masuknya energi tersebut ke ekosistem melalui ....",
+      "Energi yang ada di dalam ekosistem berasal dari matahari, proses masuknya energi tersebut ke dalam ekosistem adalah melalui....",
     options: ["PLTS", "Produsen", "Konsumen", "Pengurai"],
     correctAnswer: "B",
     explanation: "Produsen menangkap energi matahari melalui fotosintesis.",
   },
   {
     question:
-      "Energi yang diperoleh hewan dari tumbuhan akan tersalurkan kembali ke tumbuhan melalui ....",
+      "Energi yang diperoleh hewan dari tumbuhan, ternyata akan tersalurkan kembali ke tumbuhan melalui ....",
     options: [
       "buah yang dihasilkan tumbuhan",
       "hewan yang melintas di ekositem tersebut",
@@ -193,7 +200,7 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question:
-      "Salah satu peran terumbu karang dalam menjaga keseimbangan lingkungan adalah ...",
+      "Terumbu karang merupakan tempat hidup beragam hewan dan tumbuhan laut. Terumbu karang selain menjadi tempat hidup berbagai ikan dan makhluk lainnya, juga berperan penting dalam menjaga kestabilan lingkungan. Berikut salah satu peran terumbu karang dalam menjaga keseimbangan lingkungan adalah ...",
     options: [
       "melindungi ekosistem pantai dari abrasi",
       "menghindari pencemaran laut",
@@ -206,7 +213,7 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question:
-      "Makin berkurangnya populasi gajah karena perilaku manusia disebabkan oleh ...",
+      "Gajah menjadi salah satu hewan yang dilindungi karena jumlahnya makin lama makin berkurang. Berikut makin berkurangnya populasi gajah karena perilaku manusia adalah ...",
     options: [
       "penggunaan pestisida berlebihan",
       "meluasnya lahan persawahan",
@@ -218,20 +225,20 @@ export const bab2Questions = createQuestions("bab-2", [
       "Perburuan liar menjadi salah satu ancaman utama bagi hewan dilindungi.",
   },
   {
-    question: "Dampak dari penebangan hutan secara liar ditunjukkan oleh ....",
-    options: [
-      "mata air mengering dan banjir",
-      "banjir dan curah hujan tinggi",
-      "curah hujan tinggi dan terumbu karang rusak",
-      "mata air mengering dan terumbu karang rusak",
-    ],
+    question: `Dampak
+(1) mata air mengering,
+(2) banjir,
+(3) curah hujan tinggi, dan
+(4) terumbu karang rusak
+Dampak dari penebangan hutan secara liar diantaranya ditunjukkan oleh nomor ...`,
+    options: ["(1) dan (2)", "dan (3)", "dan (4)", "dan (4)"],
     correctAnswer: "A",
     explanation:
       "Penebangan hutan mengurangi resapan air sehingga mata air mengering dan banjir meningkat.",
   },
   {
     question:
-      "Akibat pembuangan limbah pabrik ke sungai tanpa pengolahan adalah ....",
+      "Limbah merupakan sisa-sisa proses produksi dari pabrik. Pemilik pabrik terkadang membuang limbah secara sembarangan ke sungai secara langsung tanpa pengolahan limbah terlebih dahulu, akibat dari pembuangan limbah tersebut adalah ....",
     options: [
       "air sungai menjadi jernih",
       "kehidupan sungai terjaga baik",
@@ -243,7 +250,8 @@ export const bab2Questions = createQuestions("bab-2", [
       "Limbah dapat mencemari air dan merusak organisme yang hidup di sungai.",
   },
   {
-    question: "Sisa air deterjen yang dibuang ke sungai dapat menyebabkan ....",
+    question:
+      "Setiap hari Bibi mencuci pakaian menggunakan deterjen, sisa air deterjen tersebut dibuang ke sungai, akibat yang timbul dari pembuangan sisa deterjen tersebut yaitu ....",
     options: [
       "pencemaran air",
       "sungai menjadi bersih dan wangi",
@@ -255,7 +263,7 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question:
-      "Ketidakseimbangan ekosistem menyebabkan gagal panen padi. Penyebab yang mungkin adalah ....",
+      "Ketidakseimbangan ekosistem menyebabkan Pak Bahrudin mengalami gagal panen padi, penyebab hal itu terjadi adalah ....",
     options: [
       "populasi elang menurun",
       "populasi ular meningkat",
@@ -267,7 +275,8 @@ export const bab2Questions = createQuestions("bab-2", [
       "Populasi tikus yang meningkat dapat merusak tanaman padi dan menyebabkan gagal panen.",
   },
   {
-    question: "Ekosistem mempengaruhi kelangsungan hidup organisme karena ....",
+    question:
+      "Ekosistem akan mempengaruhi kelangsungan hidup organisme karena ....",
     options: [
       "terjadi penambahan komponen biotik",
       "terjadi perubahan jumlah komponen lingkungan",

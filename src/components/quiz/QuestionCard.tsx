@@ -15,7 +15,9 @@ export function QuestionCard({ chapter, question, selectedAnswer, onSelectAnswer
   return (
     <Card className="p-4">
       <Badge>IPAS - Bab {chapter.number}</Badge>
-      <h2 className="mt-4 text-lg font-black leading-snug">{question.question}</h2>
+      <h2 className="mt-4 whitespace-pre-line text-lg font-black leading-snug">
+        {question.number}. {question.question}
+      </h2>
       <div className="mt-4">
         {question.image ? (
           <img

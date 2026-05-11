@@ -20,7 +20,7 @@ export function ReviewQuestionCard({ question, selectedAnswer }: ReviewQuestionC
         </div>
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-3">
-            <h3 className="text-sm font-black leading-snug">{question.question}</h3>
+            <h3 className="whitespace-pre-line text-sm font-black leading-snug">{question.question}</h3>
             <span className={`inline-flex shrink-0 items-center gap-1 rounded-full px-2 py-1 text-[11px] font-black ${isCorrect ? "bg-emerald-50 text-emerald-600" : "bg-rose-50 text-rose-500"}`}>
               {isCorrect ? <Check size={12} /> : <X size={12} />}
               {isCorrect ? "Benar" : "Salah"}
