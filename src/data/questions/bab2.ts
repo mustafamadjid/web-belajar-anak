@@ -113,7 +113,7 @@ Pernyataan yang sesuai dengan rantai makanan di atas adalah ....`,
   },
   {
     question:
-      "Puncak piramida rantai makanan biasanya hewan karnivora,, contoh hewan-hewan tersebut yaitu ....",
+      "Puncak piramida rantai makanan biasanya merupakan hewan karnivora,, contoh hewan-hewan tersebut yaitu ....",
     options: [
       "tikus, harimau dan gajah",
       "jerapah, rusa dan kerbau",
@@ -213,7 +213,7 @@ Aliran energi yang terjadi pada ekosistem kolam tersebut adalah ....`,
   },
   {
     question:
-      "Gajah menjadi salah satu hewan yang dilindungi karena jumlahnya makin lama makin berkurang. Berikut makin berkurangnya populasi gajah karena perilaku manusia adalah ...",
+      "Gajah menjadi salah satu hewan yang dilindungi karena jumlahnya makin lama makin berkurang. Penyebab makin berkurangnya populasi gajah karena perilaku manusia  berikut",
     options: [
       "penggunaan pestisida berlebihan",
       "meluasnya lahan persawahan",
