@@ -5,6 +5,7 @@ type QuestionSeed = {
   options: [string, string, string, string];
   correctAnswer: OptionId;
   explanation: string;
+  image?: string;
 };
 
 export function createQuestions(chapterId: ChapterId, seeds: QuestionSeed[]): Question[] {
@@ -19,5 +20,6 @@ export function createQuestions(chapterId: ChapterId, seeds: QuestionSeed[]): Qu
     })),
     correctAnswer: seed.correctAnswer,
     explanation: seed.explanation,
+    image: seed.image,
   }));
 }

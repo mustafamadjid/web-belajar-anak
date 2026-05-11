@@ -38,7 +38,7 @@ function QuizContent({ chapter }: { chapter: Chapter }) {
 
   return (
     <MobilePage className="pb-0">
-      <ProgressHeader currentNumber={currentNumber} title={`Bab ${chapter.number}`} total={chapter.questions.length} onBack={() => navigate("/chapters")} />
+      <ProgressHeader currentNumber={currentNumber} title={`Bab ${chapter.number}`} total={chapter.questions.length} onBack={() => navigate("/chapters")} onHome={() => navigate("/")} />
       <QuestionCard chapter={chapter} question={question} selectedAnswer={answers[question.id]} onSelectAnswer={(answer) => setAnswer(question.id, answer)} />
       {answers[question.id] ? null : <p className="mt-3 text-center text-xs font-bold text-muted">Pilih salah satu jawaban untuk soal ini.</p>}
       <QuestionNavigator

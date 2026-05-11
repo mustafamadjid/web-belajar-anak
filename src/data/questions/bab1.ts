@@ -1,4 +1,10 @@
 import { createQuestions } from "./createQuestion";
+import image1 from "../../assets/question-images/bab_1/image1.png";
+import image2 from "../../assets/question-images/bab_1/image2.png";
+import image3 from "../../assets/question-images/bab_1/image3.png";
+import image4 from "../../assets/question-images/bab_1/image4.png";
+import image5 from "../../assets/question-images/bab_1/image5.png";
+import image6 from "../../assets/question-images/bab_1/image6.png";
 
 export const bab1Questions = createQuestions("bab-1", [
   {
@@ -6,12 +12,14 @@ export const bab1Questions = createQuestions("bab-1", [
     options: ["pemantulan cahaya", "penguraian cahaya", "penyerapan cahaya", "pembiasan cahaya"],
     correctAnswer: "D",
     explanation: "Pembiasan terjadi ketika arah cahaya berubah karena melewati dua medium yang berbeda.",
+    image: image1,
   },
   {
     question: "Berdasarkan gambar, pembiasan terjadi bila cahaya datang dari ...",
     options: ["udara menuju air", "udara menuju udara", "air menuju udara", "air menuju air"],
     correctAnswer: "A",
     explanation: "Cahaya dibiaskan saat berpindah dari satu medium ke medium lain, misalnya dari udara ke air.",
+    image: image2,
   },
   {
     question: "Gelas bening dapat ditembus oleh cahaya, hal ini menunjukkan bahwa cahaya memiliki sifat ....",
@@ -24,6 +32,7 @@ export const bab1Questions = createQuestions("bab-1", [
     options: ["dapat dibiaskan", "menembus benda bening", "merambat lurus", "dapat dipantulkan"],
     correctAnswer: "C",
     explanation: "Cahaya bergerak lurus selama tidak terhalang atau berpindah medium.",
+    image: image3,
   },
   {
     question: "Peristiwa terbentuknya pelangi menunjukkan sifat cahaya dapat diuraikan menjadi beberapa warna. Cahaya-cahaya tersebut berasal dari ....",
@@ -35,6 +44,7 @@ export const bab1Questions = createQuestions("bab-1", [
     ],
     correctAnswer: "A",
     explanation: "Tetes air hujan membiaskan dan menguraikan cahaya matahari menjadi warna pelangi.",
+    image: image4,
   },
   {
     question: "Jika mata memperoleh cahaya redup atau kurang cahaya, maka pupil mata akan ....",
@@ -69,8 +79,9 @@ export const bab1Questions = createQuestions("bab-1", [
   {
     question: "Perhatikan gambar berikut ini! Gambar tersebut menunjukkan ....",
     options: ["pemantulan baur", "pemantulan teratur", "pembiasan cahaya", "penyerapan cahaya"],
-    correctAnswer: "A",
-    explanation: "Pemantulan baur terjadi ketika cahaya dipantulkan ke banyak arah oleh permukaan tidak rata.",
+    correctAnswer: "B",
+    explanation: "Pemantulan teratur terjadi ketika cahaya dipantulkan secara terarah oleh permukaan yang rata.",
+    image: image5,
   },
   {
     question: "Jarak bayangan benda dengan jarak benda yang berada di depan cermin datar adalah ....",
@@ -118,6 +129,7 @@ export const bab1Questions = createQuestions("bab-1", [
     options: ["miopi", "hipermetropi", "presbiopi", "astigmatisme"],
     correctAnswer: "A",
     explanation: "Miopi terjadi ketika bayangan benda jauh jatuh di depan retina.",
+    image: image6,
   },
   {
     question: "Kacamata dapat membantu mengatasi gangguan mata dengan cara ....",

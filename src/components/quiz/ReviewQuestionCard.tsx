@@ -26,6 +26,13 @@ export function ReviewQuestionCard({ question, selectedAnswer }: ReviewQuestionC
               {isCorrect ? "Benar" : "Salah"}
             </span>
           </div>
+          {question.image ? (
+            <img
+              alt={`Gambar soal nomor ${question.number}`}
+              className="mt-3 max-h-52 w-full rounded-lg border border-border object-contain"
+              src={question.image}
+            />
+          ) : null}
           <div className="mt-3 space-y-1 text-xs font-semibold text-muted">
             <p>Jawaban siswa: {selectedText}</p>
             <p className="text-emerald-600">Jawaban benar: {question.correctAnswer}. {correctText}</p>

@@ -29,7 +29,7 @@ export function ResultPage() {
 
   return (
     <MobilePage>
-      <TopBar title="Hasil Latihan" subtitle={`Bab ${chapter.number} selesai dikerjakan.`} onBack={() => resetAndGo("/chapters")} />
+      <TopBar title="Hasil Latihan" subtitle={`Bab ${chapter.number} selesai dikerjakan.`} onBack={() => resetAndGo("/chapters")} onHome={() => navigate("/")} />
       <div className="mb-4 rounded-3xl bg-leaf-100 p-4">
         <p className="text-lg font-black">Hebat!</p>
         <p className="text-sm font-semibold text-muted">Kamu sudah menyelesaikan seluruh soal. Lanjutkan ritmenya.</p>

@@ -45,7 +45,7 @@ function ReviewContent({ chapter, quizState }: { chapter: Chapter; quizState: St
 
   return (
     <MobilePage>
-      <TopBar title="Review Jawaban" subtitle="Lihat status tiap soal." onBack={() => navigate(`/result/${chapter.id}`)} />
+      <TopBar title="Review Jawaban" subtitle="Lihat status tiap soal." onBack={() => navigate(`/result/${chapter.id}`)} onHome={() => navigate("/")} />
       <ReviewFilterTabs onChange={setFilter} value={filter} />
       <div className="space-y-3">
         {filteredQuestions.map((question) => (

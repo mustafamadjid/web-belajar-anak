@@ -17,7 +17,15 @@ export function QuestionCard({ chapter, question, selectedAnswer, onSelectAnswer
       <Badge>IPAS - Bab {chapter.number}</Badge>
       <h2 className="mt-4 text-lg font-black leading-snug">{question.question}</h2>
       <div className="mt-4">
-        <EducationIllustration chapter={chapter} compact />
+        {question.image ? (
+          <img
+            alt={`Gambar soal nomor ${question.number}`}
+            className="max-h-64 w-full rounded-lg border border-border object-contain"
+            src={question.image}
+          />
+        ) : (
+          <EducationIllustration chapter={chapter} compact />
+        )}
       </div>
       <div className="mt-4 space-y-3">
         {question.options.map((option) => (
