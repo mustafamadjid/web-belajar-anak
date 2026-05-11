@@ -25,9 +25,9 @@ export const bab2Questions = createQuestions("bab-2", [
   },
   {
     question: `Perhatikan rantai makanan berikut!
-Tumbuhan – cacing – ayam – elang – jamur saprofit
-Organisme yang menduduki bagian pada rantai makanan yang tidak lengkap disebut ....`,
-    options: ["ular", "musang", "burung hantu", "cacing"],
+Tumbuhan - cacing - ayam - elang - jamur saprofit
+Organisme yang menduduki bagian pada rantai makanan yang tidak lengkap adalah....`,
+    options: ["Cacing", "Ayam", "Elang", "Jamur Saprofit"],
     correctAnswer: "D",
     explanation:
       "Cacing berada pada urutan setelah tumbuhan dalam rantai makanan tersebut.",
